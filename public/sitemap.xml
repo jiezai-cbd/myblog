@@ -3,11 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.com/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
+    <loc>https://example.com/blog/arch/</loc>
+    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/blog/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/%E6%88%91%E5%9C%A8linux%E4%B8%8B%E4%BD%BF%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/blog/markdown/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
@@ -18,8 +24,6 @@
     <loc>https://example.com/blog/syntax/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/bear/</loc>
-  </url><url>
-    <loc>https://example.com/hugo/</loc>
+    <loc>https://example.com/about/</loc>
   </url>
 </urlset>
