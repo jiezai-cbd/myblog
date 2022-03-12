@@ -116,3 +116,15 @@ tags = [
 ## 博客
 * hugo
 > bearblog theme
+
+## 动态状态条
+* xob
+
+## 基于alsa的控制台音频可视化器
+* cava
+
+## 浏览器启动页
+* Bento
+
+## 其他
+* bat
