@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://jiezai-cbd.github.io/myblog/images/favicon.png" />
+<title>我在linux下使用的软件 | jiezai-cbd ʕ•ᴥ•ʔ Blog</title>
+<meta name="title" content="我在linux下使用的软件" />
+<meta name="description" content="我在linux下使用的软件." />
+<meta name="keywords" content="arch," />
+
+
+<meta property="og:title" content="我在linux下使用的软件" />
+<meta property="og:description" content="我在linux下使用的软件." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jiezai-cbd.github.io/myblog/%E6%88%91%E5%9C%A8linux%E4%B8%8B%E4%BD%BF%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6/" /><meta property="og:image" content="https://jiezai-cbd.github.io/myblog/images/share.png"/><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2022-03-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-03-12T00:00:00+00:00" /><meta property="og:site_name" content="jiezai-cbd ʕ•ᴥ•ʔ Blog" />
+
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://jiezai-cbd.github.io/myblog/images/share.png"/>
+
+<meta name="twitter:title" content="我在linux下使用的软件"/>
+<meta name="twitter:description" content="我在linux下使用的软件."/>
+
+
+
+<meta itemprop="name" content="我在linux下使用的软件">
+<meta itemprop="description" content="我在linux下使用的软件."><meta itemprop="datePublished" content="2022-03-12T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-03-12T00:00:00+00:00" />
+<meta itemprop="wordCount" content="77"><meta itemprop="image" content="https://jiezai-cbd.github.io/myblog/images/share.png"/>
+<meta itemprop="keywords" content="arch," />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/myblog/" class="title">
+  <h2>jiezai-cbd ʕ•ᴥ•ʔ Blog</h2>
+</a>
+<nav><a href="/myblog/">Home</a>
+
+<a href="/myblog/about/">About</a>
+
+
+<a href="/myblog/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>我在linux下使用的软件</h1>
+<p>
+  <i>
+    <time datetime='2022-03-12' pubdate>
+      12 Mar, 2022
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>这篇文章列举了我linux下常用的软件以及相关的配置。</p>
+<hr>
+<h2 id="操作系统">操作系统</h2>
+<ul>
+<li>archlinux</li>
+</ul>
+<blockquote>
+<p>这是一些备注</p>
+</blockquote>
+<pre tabindex="0"><code>这是配置信息
+</code></pre><h2 id="窗口管理器">窗口管理器</h2>
+<ul>
+<li>dwm</li>
+</ul>
+<h2 id="终端模拟器">终端模拟器</h2>
+<ul>
+<li>st</li>
+<li>alacritty</li>
+</ul>
+<h2 id="shell">shell</h2>
+<ul>
+<li>zsh</li>
+<li>bash</li>
+<li>zsh4humans</li>
+</ul>
+<h2 id="浏览器">浏览器</h2>
+<ul>
+<li>firefox</li>
+<li>chrome</li>
+</ul>
+<h2 id="虚拟机">虚拟机</h2>
+<ul>
+<li>virtualbox</li>
+</ul>
+<h2 id="截图工具">截图工具</h2>
+<ul>
+<li>flameshot</li>
+</ul>
+<blockquote>
+<p>在dwm中定义快捷键使用</p>
+</blockquote>
+<h2 id="音乐">音乐</h2>
+<ul>
+<li>网易云音乐</li>
+</ul>
+<h2 id="图形界面后端">图形界面后端</h2>
+<ul>
+<li>X服务器</li>
+</ul>
+<h2 id="应用程序启动器">应用程序启动器</h2>
+<ul>
+<li>rofi</li>
+<li>dmenu</li>
+</ul>
+<h2 id="桌面壁纸">桌面壁纸</h2>
+<ul>
+<li>feh</li>
+</ul>
+<h2 id="文件搜索">文件搜索</h2>
+<ul>
+<li>fzf</li>
+</ul>
+<h2 id="git客户端">git客户端</h2>
+<ul>
+<li>lazygit</li>
+</ul>
+<h2 id="文本编辑器">文本编辑器</h2>
+<ul>
+<li>neovim</li>
+</ul>
+<h2 id="代理">代理</h2>
+<ul>
+<li>clash</li>
+<li>proxychains</li>
+<li>浏览器插件proxyswitchomega</li>
+</ul>
+<h2 id="文件管理器">文件管理器</h2>
+<ul>
+<li>ranger</li>
+</ul>
+<h2 id="系统监视">系统监视</h2>
+<ul>
+<li>conky</li>
+</ul>
+<h2 id="输入法">输入法</h2>
+<ul>
+<li>fcitx</li>
+<li>google拼音</li>
+</ul>
+<h2 id="联网工具">联网工具</h2>
+<ul>
+<li>wpa_supplicant</li>
+<li>iw</li>
+<li>dhcpcd</li>
+</ul>
+<h2 id="aur下载">aur下载</h2>
+<ul>
+<li>yay</li>
+</ul>
+<h2 id="视频播放器">视频播放器</h2>
+<ul>
+<li>vlc</li>
+</ul>
+<h2 id="合成管理器">合成管理器</h2>
+<ul>
+<li>picom</li>
+</ul>
+<h2 id="音量管理">音量管理</h2>
+<ul>
+<li>后端
+<ul>
+<li>pulseaudio</li>
+<li>alse</li>
+</ul>
+</li>
+<li>前端
+<ul>
+<li>pacmixer</li>
+<li>alsamixer</li>
+</ul>
+</li>
+</ul>
+<h2 id="系统信息">系统信息</h2>
+<ul>
+<li>neofetch</li>
+</ul>
+<h2 id="音乐播放器守护进程">音乐播放器守护进程</h2>
+<ul>
+<li>mpd</li>
+</ul>
+<h2 id="音乐播放器前端">音乐播放器前端</h2>
+<ul>
+<li>ncmpcpp</li>
+</ul>
+<h2 id="后台消息提醒进程">后台消息提醒进程</h2>
+<ul>
+<li>dunst</li>
+</ul>
+<h2 id="博客">博客</h2>
+<ul>
+<li>hugo</li>
+</ul>
+<blockquote>
+<p>bearblog theme</p>
+</blockquote>
+</content>
+<p>
+  
+  <a href="https://jiezai-cbd.github.io/myblog/blog/arch/">#arch</a>
+  
+</p>
+
+  </main>
+  <footer>
+
+Copyright © 2022, jiezai-cbd.
+</footer>
+
+    
+</body>
+
+</html>
