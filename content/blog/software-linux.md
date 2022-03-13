@@ -131,6 +131,7 @@ tags = [
 
 ## 聊天软件
 * qq
+* telegram
 
 ## 图像编辑
 * gimp
