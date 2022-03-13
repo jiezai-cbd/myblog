@@ -126,5 +126,9 @@ tags = [
 ## 浏览器启动页
 * Bento
 
+## 锁屏
+* i3lock-color
+
 ## 其他
 * bat
+* htop
