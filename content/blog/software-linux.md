@@ -129,6 +129,9 @@ tags = [
 ## 锁屏
 * i3lock-color
 
+## 聊天软件
+* qq
+
 ## 其他
 * bat
 * htop
