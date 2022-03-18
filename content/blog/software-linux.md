@@ -139,6 +139,9 @@ tags = [
 ## 录屏软件
 * obs
 
+## 计划任务
+* crontab
+
 ## 其他
 * bat
 * htop
