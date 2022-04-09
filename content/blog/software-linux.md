@@ -98,7 +98,7 @@ tags = [
   * pulseaudio
   * alse
 * 前端
-  * pacmixer
+  * pamixer
   * alsamixer
 
 ## 系统信息
