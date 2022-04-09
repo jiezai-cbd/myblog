@@ -1,7 +1,7 @@
 +++
-title = "个人看过的漫画"
+title = "个人看过的动漫"
 date = "2022-04-09"
-description = "个人看过的漫画"
+description = "个人看过的动漫"
 tags = [
     "animation",
 ]
