@@ -8,13 +8,13 @@
 <link rel="shortcut icon" href="https://jiezai-cbd.github.io/myblog/images/favicon.png" />
 <title>关于我 | jiezai-cbd ʕ•ᴥ•ʔ Blog</title>
 <meta name="title" content="关于我" />
-<meta name="description" content="About Me Hi there 👋 
+<meta name="description" content="About Me {{ $image := .Resources.GetMatch &ldquo;1.gif&rdquo; }}
 GitHub." />
 <meta name="keywords" content="" />
 
 
 <meta property="og:title" content="关于我" />
-<meta property="og:description" content="About Me Hi there 👋 
+<meta property="og:description" content="About Me {{ $image := .Resources.GetMatch &ldquo;1.gif&rdquo; }}
 GitHub." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://jiezai-cbd.github.io/myblog/about/" /><meta property="og:image" content="https://jiezai-cbd.github.io/myblog/images/share.png"/><meta property="article:section" content="" />
@@ -28,16 +28,16 @@ GitHub." />
 <meta name="twitter:image" content="https://jiezai-cbd.github.io/myblog/images/share.png"/>
 
 <meta name="twitter:title" content="关于我"/>
-<meta name="twitter:description" content="About Me Hi there 👋 
+<meta name="twitter:description" content="About Me {{ $image := .Resources.GetMatch &ldquo;1.gif&rdquo; }}
 GitHub."/>
 
 
 
 <meta itemprop="name" content="关于我">
-<meta itemprop="description" content="About Me Hi there 👋 
+<meta itemprop="description" content="About Me {{ $image := .Resources.GetMatch &ldquo;1.gif&rdquo; }}
 GitHub.">
 
-<meta itemprop="wordCount" content="6"><meta itemprop="image" content="https://jiezai-cbd.github.io/myblog/images/share.png"/>
+<meta itemprop="wordCount" content="9"><meta itemprop="image" content="https://jiezai-cbd.github.io/myblog/images/share.png"/>
 <meta itemprop="keywords" content="" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -233,11 +233,7 @@ GitHub.">
 
 <content>
   <h1 id="about-me">About Me</h1>
-<h3 id="hi-there-">Hi there 👋</h3>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api?username=jiezai-cbd&amp;count_private=true&amp;show_icons=true&amp;theme=radical" alt="Anurag&amp;rsquo;s GitHub stats"></a></p>
+<p>{{ $image := .Resources.GetMatch &ldquo;1.gif&rdquo; }}</p>
 <p><a href="https://github.com/jiezai-cbd">GitHub</a>.</p>
 
 </content>
